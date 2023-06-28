@@ -1,1 +1,7 @@
+// run validator HTMl
+
 npm exec html-validate .html
+
+// run browser-sync
+
+node_modules/.bin/browser-sync start --server --files "css/*.css" "*.html"
