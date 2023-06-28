@@ -29,3 +29,8 @@ body {
 .poem p {
 	margin: 30px 0;
 }
+
+.poem h1 span,
+.poem h3 span {
+	opacity: 0.5;
+}
